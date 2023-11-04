@@ -1,0 +1,66 @@
+/* Organizo el encabezado y le dio sus debidos estilos  */
+header {
+    display: flex;
+    background-color: aqua;
+    position:  absolute;
+}
+.cabezera {
+    width: 100%;
+    height: 9%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+}
+.button {
+    position: relative;
+    left: 56%;
+    background-color: rgb(253, 42, 0);
+    border-color: aqua;
+    border-radius: 20px;
+    color: chartreuse;
+}
+
+#titulo {
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+#img {
+    position: relative;
+    left: 24%;
+}
+
+#input {
+    position: relative;
+    left: 24%;
+    top: 26px;
+    width: 400px;
+    height: 40px;
+}
+
+.superior {
+    position: relative;
+    display: inline-flex;
+    top: 100px;
+}
+.hamburguesa1 {
+    height: 400px; 
+    width: 500px;
+    border-radius: 40px;
+}
+.reseña {
+    width: 40%;
+    position: relative;
+    background-color: rgb(176, 173, 173);
+    color: black;
+    top: 60px;
+}
+.us {
+    position: relative;
+    top: 100px;
+}
+.Precio {
+    position: relative;
+    top: 70px;
+}
