@@ -1,42 +1,128 @@
-/* Organizo el encabezado y le dio sus debidos estilos  */
-header {
-    display: flex;
-    background-color: aqua;
-    position:  absolute;
-}
-.cabezera {
-    width: 100%;
-    height: 9%;
-    left: 0%;
-    top: 0%;
-    position: fixed;
-}
-.button {
-    position: relative;
-    left: 56%;
-    background-color: rgb(253, 42, 0);
-    border-color: aqua;
-    border-radius: 20px;
-    color: chartreuse;
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Righteous&family=Ubuntu+Mono:wght@700&display=swap');
+
+/* Estilo universal */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#titulo {
+/* Estilos de la cabeza (colores de la cabeza) */
+
+header{
+    background-color:#1DBEB4;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilos del cuerpo (fondo de la página) */
+
+body{
+    background-image: url(https://us.123rf.com/450wm/yuliamalinovskaya/yuliamalinovskaya1601/yuliamalinovskaya160100049/49905835-alimentos-y-patr%C3%B3n-transparente-de-cocina-fondo-gris-con-iconos-de-la-silueta-de-tema-culinario.jpg);
+}
+
+/* Contenedor principal (del header) */
+
+.container{
+    max-width: 100%px;
+    margin-left: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
     position: relative;
-    left: 100px;
+}
+
+/* Logo de la página */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Orden del contenedor */
+
+.logo_principal{
+    display: flex;
+}
+
+/* Estilos de la palabra NUTRI */
+
+.container .title1{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #27B43E;             
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Estilos de la palabra STUD */
+
+.container .title2{
+    font-size: 35px;
+    font-family: 'Righteous', sans-serif;
+}
+
+/* Estilos de inicio de sesión */
+
+.bottom .list{
+    list-style: none;
+    padding: 0;
+}
+
+/* Orden de los botones */
+
+.bottom .list .list1{
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Colores de los botones */
+
+.bottom .aa{
+    text-decoration: none;
+    color: #fff;
+} 
+
+/* Diseño del input buscador */
+
+.search{
+    bottom: 7px;
+    left: 50px;
+    /* align-items: center; */
+    right: 100px;
     top: 10px;
 }
 
-#img {
+/* Posición del input buscador */
+
+.search input {
     position: relative;
-    left: 24%;
+    width: 575px;
+    height: 50px;
+    top: -10px;
+    border-radius: 8px;
+    border: none;
+    right: 40px;
+    background-color: rgb(187, 187, 187);
 }
 
-#input {
+/* Posicion y tamaño de la lupa */
+
+.search img {
+    width: 50px;
     position: relative;
-    left: 24%;
-    top: 26px;
-    width: 400px;
-    height: 40px;
+    top: 10px;
+    right: 40px;
+}
+
+/* Background de inicio de sesión y registro */
+
+.list .list1{
+    background-color: #27B43E;
 }
 
 .superior {
